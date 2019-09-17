@@ -2,17 +2,17 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
-    <link rel="canonical" href="PCページのURL" />
+    <link rel="canonical" href="" />
     <meta
       name="viewport"
       content="width=device-width,minimum-scale=1,initial-scale=1"
     />
     <meta name="robots" content="index, follow" />
-    <title>【　１：title　】</title>
-    <meta name="description" content="【　２：description　】" />
+    <title></title>
+    <meta name="description" content="" />
     <meta name="keywords" content="【　３：keywords　】" />
     <meta name="format-detection" content="telephone=no" />
-    <script type="application/ld+json">
+    <!-- <script type="application/ld+json">
       {
         "@context": "test",
         "@type": "test",
@@ -20,16 +20,15 @@
         "image": ["aaa.jpg"],
         "datePublished": "2015-02-05T08:00:00+08:00"
       }
-    </script>
+    </script> -->
     <!-- ▼OGPの設定 -->
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="【　１：title　】" />
-    <meta property="og:description" content="【　２：description　】" />
-    <meta property="og:url" content="【　４：ページURL　】" />
-    <meta property="og:image" content="【　５：ページURL/ogp.png　】" />
-    <meta property="og:site_name" content="【　６：サイト名　】" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <!-- <meta property="og:image" content="【　５：ページURL/ogp.png　】" /> -->
+    <meta property="og:site_name" content="" />
     <meta property="og:locale" content="ja_JP" />
-    <meta property="fb:app_id" content="【　７：FBのapp_id　】" />
     <!-- ▼Twitter Cardsの設定-->
     <meta name="twitter:card" content="summary" />
     <!--大きい画像があればsummary_large_image-->
@@ -111,6 +110,7 @@
       .pageheader--title {
         line-height: 3.5rem;
         font-size: 2rem;
+        color: black;
         padding-left: 0.2em;
         display: inline-block;
       }
@@ -239,7 +239,7 @@
         >
           ☰
         </div>
-        <div class="pageheader--title">Title</div>
+        <a href="/index.html"> <div class="pageheader--title">Title</div> </a>
       </header>
       <amp-sidebar
         id="header-sidebar"
@@ -257,7 +257,11 @@
             ✕
           </div>
         </div>
-        <nav class="ampstart-sidebar-nav"></nav>
+        <nav class="ampstart-sidebar-nav">
+          <a href="/">
+            <div>top</div>
+          </a>
+        </nav>
       </amp-sidebar>
       <main class="main-container">
         <article class="contentArea">
@@ -294,5 +298,5 @@
       </main>
       <footer class="pageFooter">footer</footer>
     </div>
-  </body>
+  <script type="text/javascript" src="/1.71c2a1e080d94577a13f.js"></script><script type="text/javascript" src="/app.6a7f23867fb00a3d6cc9.js"></script></body>
 </html>
